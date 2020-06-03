@@ -1,5 +1,5 @@
 <?php
-include('connection.php');
+include('../connection.php');
 $connection = openConn();
 
 $query = "SELECT * FROM `tbl_siswa`";
@@ -11,4 +11,3 @@ while ($row = mysqli_fetch_assoc($result)) {
 }
 header('json app');
 echo json_encode($response);
-?>
