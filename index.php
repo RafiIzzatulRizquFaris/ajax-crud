@@ -32,8 +32,8 @@
 
 <body>
     <div class="page-wrapper bg-gra-03 p-t-45 p-b-50">
-        <div class="wrapper wrapper--w790">
-            <div class="card card-5">
+        <div class="wrapper wrapper--w960">
+            <div class="card card-7">
                 <div class="card-heading">
                     <h2 class="title">Data Siswa</h2>
                 </div>
@@ -123,9 +123,10 @@
                             </div>
                         </div>
                         <div>
-                            <button class="btn btn--radius-2 btn--red" type="submit">Submit</button>
+                            <button class="btn btn--radius-2 btn--green" type="submit">Submit</button>
                         </div>
                     </form>
+                    <br>
                     <br>
                     <table class="table">
                         <thead class="thead-dark">
@@ -137,11 +138,11 @@
                                 <th scope="col">Tanggal Masuk</th>
                                 <th scope="col">Jurusan</th>
                                 <th scope="col">Biodata</th>
+                                <th scope="col">Action</th>
                             </tr>
                         </thead>
                         <tbody id="tableBody"></tbody>
                     </table>
-
                 </div>
             </div>
         </div>
