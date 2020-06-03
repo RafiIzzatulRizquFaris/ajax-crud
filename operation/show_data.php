@@ -1,5 +1,5 @@
 <?php
-include('koneksi.php');
+include('connection.php');
 $connection = openConn();
 
 $query = "SELECT * FROM `tbl_siswa`";
