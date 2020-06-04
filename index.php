@@ -128,21 +128,7 @@
                     </form>
                     <br>
                     <br>
-                    <table class="table">
-                        <thead class="thead-dark">
-                            <tr>
-                                <th scope="col">#</th>
-                                <th scope="col">Nama Siswa</th>
-                                <th scope="col">Alamat</th>
-                                <th scope="col">Jenis Kelamin</th>
-                                <th scope="col">Tanggal Masuk</th>
-                                <th scope="col">Jurusan</th>
-                                <th scope="col">Biodata</th>
-                                <th scope="col">Action</th>
-                            </tr>
-                        </thead>
-                        <tbody id="tableBody"></tbody>
-                    </table>
+                    <div class="data"></div>
                 </div>
             </div>
         </div>
@@ -156,6 +142,8 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
         integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous">
     </script>
+    <script src="https://cdn.datatables.net/1.10.19/js/jquery.dataTables.min.js"></script>
+    <script src="https://cdn.datatables.net/1.10.19/js/dataTables.bootstrap4.min.js"></script>
     <script src="script.js"></script>
 
 </body><!-- This templates was made by Colorlib (https://colorlib.com) -->

@@ -14,3 +14,5 @@ if ($result = mysqli_query($connection, $query)) {
 }
 header('json app');
 echo json_encode($response);
+
+// INSERT INTO `tbl_siswa` (`id`, `nama_siswa`, `alamat`, `jenis_kelamin`, `tgl_masuk`, `jurusan`, `biodata`, `avatar`) VALUES (NULL, 'Rafi Izzatul Rizqu Faris', 'Jl. Pemancar II No. 1', 'Laki - laki', '2020-06-03', 'Rekayasa Perangkat Lunak', 'just a guy who love to code', NULL);
